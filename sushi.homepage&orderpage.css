@@ -1,3 +1,5 @@
+/* Homepage */
+
 /* Sushi-master img */
 .sushi-master {
   text-align: center;
@@ -88,3 +90,87 @@ nav{
     background: #00bcd4;
     color: white;
   }
+
+  .time-time {
+    display: flex;
+    justify-content: center;
+  }
+
+  .time-time h3{
+    margin-right: 40px;
+    margin-top: 30px;
+  }
+
+  .time-time h1{
+    margin-right: 40px;
+  }
+
+  /* NEWS */
+  .news-title{
+    text-align: center;
+  }
+.big-news {
+  display: flex;
+  margin-top: 50px;
+}
+
+.small-news {
+margin: 20px;
+}
+
+.big-news img {
+  width: 100%;
+}
+
+.big-news p{
+  text-align: center;
+}
+
+/* Orderpage--------------------------------------------------------- */
+table {
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+
+.table-order {
+  text-align: center;
+}
+
+table td,th{
+  border: solid 1px black;
+}
+
+/* pay button */
+.button-pay {
+  text-align: center;
+}
+
+.btn-flat-simple-pay {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding-top: 8px;
+  text-decoration: none;
+  color: #00BCD4;
+  background: #ECECEC;
+  transition: .4s;
+  margin-top: 50px;
+  width : 150px;
+  height: 30px;
+  text-align: center;
+  
+}
+
+.btn-flat-simple-pay:hover {
+  background: #00bcd4;
+  color: white;
+}
+
+.paypay {
+  
+ text-align: center;
+}
+
+.paypay img {
+  width: 150px;
+}
